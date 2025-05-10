@@ -69,6 +69,11 @@ This document provides details on testing various services after running the `do
    ```
    docker-compose up
    ```
+  ![image](https://github.com/user-attachments/assets/b3f5969e-5cc1-4d04-8403-81f0694b9537)
+
+  ![image](https://github.com/user-attachments/assets/c3666f3a-99d1-4479-976c-4ea7f8b978bc)
+
+
 2. Once the services are running, use the above endpoints to verify the functionality.
 
 Happy testing!
