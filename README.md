@@ -5,15 +5,24 @@ This document provides details on testing various services after running the `do
 
 ---
 
+1. Clone the repository:
+
+  ```
+  git clone https://github.com/yourusername/Microservices-Task.git
+  cd Microservices-Task
+  ```
+
 ## Services and Endpoints
 
 ### **User Service**
+
 - **Base URL:** `http://localhost:3000`
 - **Endpoints:**
   - **List Users:**  
     ```
     curl http://localhost:3000/users
     ```
+    
     Or open in your browser: [http://localhost:3000/users](http://localhost:3000/users)
 
     ![image](https://github.com/user-attachments/assets/1927e231-5d41-48e1-b591-ebb6e5c87b5a)
@@ -50,6 +59,7 @@ This document provides details on testing various services after running the `do
 - **Base URL:** `http://localhost:3003/api`
 - **Endpoints:**
   - **Users:**  
+    
     ```
     curl http://localhost:3003/api/users
     ```
@@ -66,14 +76,17 @@ This document provides details on testing various services after running the `do
 
 ## Instructions
 1. Start all services using the `docker-compose` file:
-   ```
-   docker-compose up
-   ```
+
+    ```
+    docker-compose build
+    docker-compose up -d
+    ```
+
+
   ![image](https://github.com/user-attachments/assets/b3f5969e-5cc1-4d04-8403-81f0694b9537)
 
   ![image](https://github.com/user-attachments/assets/c3666f3a-99d1-4479-976c-4ea7f8b978bc)
 
-  ![image](https://github.com/user-attachments/assets/fff0d4ee-b6bc-4e47-853c-da56c9b4067a)
 
 2. Once the services are running, use the above endpoints to verify the functionality.
 
