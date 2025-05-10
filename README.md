@@ -73,6 +73,7 @@ This document provides details on testing various services after running the `do
 
   ![image](https://github.com/user-attachments/assets/c3666f3a-99d1-4479-976c-4ea7f8b978bc)
 
+  ![image](https://github.com/user-attachments/assets/fff0d4ee-b6bc-4e47-853c-da56c9b4067a)
 
 2. Once the services are running, use the above endpoints to verify the functionality.
 
